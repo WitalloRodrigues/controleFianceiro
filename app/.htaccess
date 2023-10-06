@@ -1,0 +1,5 @@
+
+
+RewriteEngine On
+RewriteCond $1 !^(index\.php|img|upload|arquivos|css|bootstrap|calendario|js|images|favicon\.ico|robots\.txt)
+RewriteRule ^(.*)$ public/index.php [L]
